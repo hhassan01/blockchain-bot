@@ -15,4 +15,10 @@ export const pairContracts = [
   'function name() external pure returns (string memory)',
   'function totalSupply() external view returns (uint)',
   'event Sync(uint112 reserve0, uint112 reserve1)',
+  'function symbol() external pure returns (string memory)',
+  'function decimals() external pure returns (uint8)',
+  'function price0CumulativeLast() external view returns (uint)',
+  'function price1CumulativeLast() external view returns (uint)',
+  'function getReserves() external view returns (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast)',
+  'function kLast() external view returns (uint)',
 ]
