@@ -45,3 +45,8 @@
 //   // console.log(receipt);
 //   }
 // )
+// provider.on('block', async (blockNo) => {
+//   console.log(blockNo);
+//   const mango = await GetTokenData(coinAddresses.wbnb, coinAddresses.busd);
+//   console.log(mango);
+// })
