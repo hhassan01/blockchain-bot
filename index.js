@@ -45,4 +45,4 @@ const id = await getPairData(
   pairContracts,
   account
 );
-console.log("MAIN ", id);
+console.log("MAIN ", {id});
